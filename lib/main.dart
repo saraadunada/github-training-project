@@ -13,10 +13,7 @@ class StudentProfileApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Student Profile App',
-      theme: ThemeData(
-        useMaterial3: true,
-        fontFamily: 'Arial',
-      ),
+      theme: ThemeData(useMaterial3: true, fontFamily: 'Arial'),
       home: const HomeScreen(),
     );
   }

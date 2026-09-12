@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:sara_emad/widgets/InfoCard.dart';
 import 'package:sara_emad/widgets/StudentCard.dart';
 
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -12,9 +11,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Student Profile',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-          ),
+          style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
       ),
@@ -29,10 +26,7 @@ class HomeScreen extends StatelessWidget {
 
             const Text(
               'Personal Information',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
 
             const SizedBox(height: 15),
@@ -65,10 +59,7 @@ class HomeScreen extends StatelessWidget {
 
             const Text(
               'Skills',
-              style: TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
 
             const SizedBox(height: 15),
@@ -77,22 +68,11 @@ class HomeScreen extends StatelessWidget {
               spacing: 10,
               runSpacing: 10,
               children: const [
-                Chip(
-                  avatar: Icon(Icons.flutter_dash),
-                  label: Text('Flutter'),
-                ),
-                Chip(
-                  label: Text('Dart'),
-                ),
-                Chip(
-                  label: Text('Firebase'),
-                ),
-                Chip(
-                  label: Text('Git'),
-                ),
-                Chip(
-                  label: Text('GitHub'),
-                ),
+                Chip(avatar: Icon(Icons.flutter_dash), label: Text('Flutter')),
+                Chip(label: Text('Dart')),
+                Chip(label: Text('Firebase')),
+                Chip(label: Text('Git')),
+                Chip(label: Text('GitHub')),
               ],
             ),
 
@@ -101,10 +81,7 @@ class HomeScreen extends StatelessWidget {
             Center(
               child: Text(
                 '© 2026 Student Profile App',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 14,
-                ),
+                style: TextStyle(color: Colors.grey, fontSize: 14),
               ),
             ),
           ],
