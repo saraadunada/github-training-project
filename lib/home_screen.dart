@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sara_emad/widgets/InfoCard.dart';
 import 'package:sara_emad/widgets/StudentCard.dart';
 
 
@@ -36,29 +37,29 @@ class HomeScreen extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            // const InfoCard(
-            //   icon: Icons.person,
-            //   title: 'Name',
-            //   value: 'Student Name',
-            // ),
+            const InfoCard(
+              icon: Icons.person,
+              title: 'Name',
+              value: 'Student Name',
+            ),
 
-            // const InfoCard(
-            //   icon: Icons.school,
-            //   title: 'Major',
-            //   value: 'Mobile Application Programming',
-            // ),
+            const InfoCard(
+              icon: Icons.school,
+              title: 'Major',
+              value: 'Mobile Application Programming',
+            ),
 
-            // const InfoCard(
-            //   icon: Icons.code,
-            //   title: 'Programming Language',
-            //   value: 'Dart / Flutter',
-            // ),
+            const InfoCard(
+              icon: Icons.code,
+              title: 'Programming Language',
+              value: 'Dart / Flutter',
+            ),
 
-            // const InfoCard(
-            //   icon: Icons.email,
-            //   title: 'Email',
-            //   value: 'student@example.com',
-            // ),
+            const InfoCard(
+              icon: Icons.email,
+              title: 'Email',
+              value: 'student@example.com',
+            ),
 
             const SizedBox(height: 25),
 
