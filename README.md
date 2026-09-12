@@ -1,16 +1,49 @@
-# sara_emad
+# GitHub Training Project
 
-A new Flutter project.
+## Student Profile App
 
-## Getting Started
+A simple mobile application developed using Flutter and Dart.
 
-This project is a starting point for a Flutter application.
+The project was created as part of a Git and GitHub training assignment.
+It demonstrates basic Git commands, GitHub collaboration, branches, issues,
+pull requests, and Flutter application development.
 
-A few resources to get you started if this is your first Flutter project:
+## Project Description
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+github-training-project is a simple Flutter mobile application that displays
+student information in a clean and organized interface.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application contains:
+
+- AppBar
+- Student profile card
+- Personal information cards
+- Programming skills
+- Footer
+- Responsive layout
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Git
+- GitHub
+- Material Design
+
+## Project Structure
+
+lib/
+|- main.dart
+|- home_screen.dart
+|- widgets/
+    |- student_card.dart
+    |- info_card.dart
+
+## Features
+
+- Simple and clean user interface
+- Student profile information
+- Skills section
+- Reusable Flutter widgets
+- Responsive layout
+- Organized project structure
