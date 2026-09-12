@@ -1,4 +1,3 @@
-# Sara emad abu nada
 # GitHub Training Project
 
 ## Student Profile App
@@ -48,3 +47,42 @@ lib/
 - Reusable Flutter widgets
 - Responsive layout
 - Organized project structure
+
+ ## How to Run
+
+1. Install Flutter.
+2. Clone the repository.
+3. Open the project directory.
+    cd github-training-project
+4. Install dependencies.
+     flutter pub get
+5. Run the application.
+     flutter run
+
+
+## Git Commands Used
+
+git init
+git add .
+git commit -m "Initial project setup"
+git checkout -b feature/design-update
+git add .
+git commit -m "Updated design"
+git checkout main
+git merge feature/design-update
+git push
+
+## Screenshots
+
+### Home Screen
+
+![Home Screen](screenshots/home_screen.png)
+
+
+## Student
+
+Sara emad abu nada
+
+## License
+
+This project was created for educational purposes.
