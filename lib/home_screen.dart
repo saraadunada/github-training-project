@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
             const InfoCard(
               icon: Icons.person,
               title: 'Name',
-              value: 'Student Name',
+              value: 'Sara emad Mohammed abu nada',
             ),
 
             const InfoCard(
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
             const InfoCard(
               icon: Icons.email,
               title: 'Email',
-              value: 'student@example.com',
+              value: 'sabunade@smail.ucas.edu.ps',
             ),
 
             const SizedBox(height: 25),
