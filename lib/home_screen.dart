@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sara_emad/widgets/StudentCard.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -21,7 +22,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // const StudentCard(),
+            const StudentCard(),
 
             const SizedBox(height: 25),
 
