@@ -11,7 +11,7 @@ class StudentCard extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Row(
           children: [
-            CircleAvatar(radius: 40, child: Icon(Icons.person, size: 45)),
+            CircleAvatar(radius: 40,backgroundImage: AssetImage('images/student.png')),
 
             const SizedBox(width: 20),
 
